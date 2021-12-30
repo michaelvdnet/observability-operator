@@ -6,4 +6,13 @@ plugins:
   scorecard.sdk.operatorframework.io/v2: {}
 projectName: observability-operator
 repo: github.com/michaelvdnet/observability-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: observability-operator.io
+  kind: Grafana
+  path: github.com/michaelvdnet/observability-operator/api/v1alpha1
+  version: v1alpha1
 version: "3"

@@ -1,0 +1,6 @@
+apiVersion: observability-operator.io/v1alpha1
+kind: Grafana
+metadata:
+  name: grafana-sample
+spec:
+  # Add fields here
